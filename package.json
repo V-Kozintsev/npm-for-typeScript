@@ -11,19 +11,9 @@
     "watch": "webpack --watch",
     "serve": "webpack serve",
     "lint": "eslint .",
+    "lint:fix": "npx eslint . --fix",
     "format": "prettier --write .",
     "prepare": "husky"
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "prettier --write"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "keywords": [],
   "author": "",

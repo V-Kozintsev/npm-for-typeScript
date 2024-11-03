@@ -1,15 +1,4 @@
-# 🚀 Welcome to your new awesome project!
+# 🚀 Welcome to Configuring npm packages for TypeScript with integration of linters, Webpack, Husky and GitHub Pages!
 
-This project has been created using **webpack-cli**, you can now run
 
-```
-npm run build
-```
 
-or
-
-```
-yarn build
-```
-
-to bundle your application

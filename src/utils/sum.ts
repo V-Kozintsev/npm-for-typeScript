@@ -1,4 +1,3 @@
-// sum.ts
-export const sum = (a: number, b: number): number => {
+export function sum(a: number, b: number) {
   return a + b;
-};
+}
